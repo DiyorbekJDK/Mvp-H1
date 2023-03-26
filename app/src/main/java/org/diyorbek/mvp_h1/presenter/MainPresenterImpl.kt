@@ -1,7 +1,6 @@
 package org.diyorbek.mvp_h1.presenter
 
 import org.diyorbek.mvp_h1.model.Data
-import org.diyorbek.mvp_h1.model.User
 import org.diyorbek.mvp_h1.network.RetroInstance
 import retrofit2.Call
 import retrofit2.Callback
@@ -19,7 +18,6 @@ class MainPresenterImpl(private val mainView: MainView):MainPresenter {
 
             override fun onFailure(call: Call<List<Data>>, t: Throwable) {
                 mainView.onUsersGetFailure(t.message!!)
-                throw t
             }
         })
     }

@@ -9,8 +9,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import org.diyorbek.mvp_h1.adapter.UserAdapter
 import org.diyorbek.mvp_h1.databinding.ActivityMainBinding
 import org.diyorbek.mvp_h1.model.Data
-import org.diyorbek.mvp_h1.model.User
-import org.diyorbek.mvp_h1.presenter.MainPresenter
 import org.diyorbek.mvp_h1.presenter.MainPresenterImpl
 import org.diyorbek.mvp_h1.presenter.MainView
 
